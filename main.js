@@ -33,8 +33,10 @@ function scrollFunction(){
     z.style.opacity = "0";
   }
   if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-    w.style.top = "670px";
+    w.style.top = "550px";
+    w.style.fontSize = "0.7em";
   } else {
     w.style.top = "20px";
+    w.style.fontSize = "2em";
   }
 }

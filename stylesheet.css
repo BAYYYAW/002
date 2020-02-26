@@ -39,6 +39,7 @@
 }
 
 @media screen and (max-width:880px){
+
   .footer .list{
     margin: 80px 10px;
     padding: 0px 25px;
@@ -85,7 +86,71 @@
     position: fixed;
   }
 }
-@media screen and (max-width:220px){
+@media screen and (max-width:652px){
+  .contact .sosmed a{
+    text-decoration: none;
+    color: white;
+    margin: 20px 20px;
+    font-size: 3em;
+  }
+  .container .contact h1{
+    text-align: left;
+    line-height: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .footer{
+    padding: 25px 0px;
+  }
+  .container .footer{
+    display: block;
+  }
+
+  .footer .list{
+    margin: 50px 10px;
+    padding: 0px 40px;
+    border-right: 0px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+
+  .footer .list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 5px 0px;
+  }
+
+  .footer .list h2 {
+    padding: 20px 0px;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width:425px){
+  .container .contact h1{
+    text-align: left;
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .content .left{
+    background: #fff;
+    padding: 5px 35px;
+    margin: 8px 5px 0px 0px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 }
 
@@ -302,7 +367,7 @@ p{
 .contact{
   width: 100%;
   height: 700px;
-  background-image: url('images/bgc.jpg');
+  background-image: url('https://image.freepik.com/free-photo/top-view-roasted-coffee-beans-with-copy-space_23-2148251565.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   align-items: center;
@@ -313,26 +378,22 @@ p{
   line-height: 90px;
   font-family: 'Raleway', sans-serif;
   font-size: 4em;
-  color: rgb(236, 236, 236);
+  color: white;
   letter-spacing: 2px;
 }
 
 .soscontainer{
-  position: relative;
-  left: 700px;
-  top: -79px;
+  margin: auto;
 }
 
 .sosmed{
-  position: relative;
-  top: 40px;
-  left: 60px;
+  text-align: center;
 }
 
 .sosmed a{
   text-decoration: none;
   color: white;
-  margin: 20px 60px;
+  margin: 20px 20px;
   font-size: 3em;
 }
 
@@ -351,6 +412,7 @@ p{
   background-image: url('images/bgg.jpg');
   align-items: center;
   justify-content: center;
+  display: flex;
 }
 
 .list{
