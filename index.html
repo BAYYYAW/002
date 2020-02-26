@@ -26,21 +26,21 @@
 <div class="buttonT" onclick="myFunction1()" id="btn1" >&#9776;</div>
 
   <div class="menubarR" id="navbar">
-    <a href="#">Menu</a>
-    <a href="#">Product</a>
-    <a href="#">Profile</a>
-    <a href="#">Contact</a>
+    <a href="#menu" onclick="myFunction2()">Menu</a>
+    <a href="#product" onclick="myFunction2()">Product</a>
+    <a href="#profile" onclick="myFunction2()">Profile</a>
+    <a href="#contact" onclick="myFunction2()">Contact</a>
  </div>
 
   <div class="menubarT" id="navbar1">
-    <a href="#">Menu</a>
-    <a href="#">Product</a>
-    <a href="#">Profile</a>
-    <a href="#">Contact</a>
+    <a href="#menu" onclick="myFunction2()">Menu</a>
+    <a href="#product" onclick="myFunction2()">Product</a>
+    <a href="#profile" onclick="myFunction2()">Profile</a>
+    <a href="#contact" onclick="myFunction2()">Contact</a>
  </div>
 
 
-  <div class="container">
+  <div class="container" id="menu">
     <div class="content">
       <div class="row ads font">
         <div class="left shadow pos1">
@@ -54,7 +54,7 @@
         <div class="right shadow pos2"><div class="pic"></div></div>
       </div>
       <div class="choose font pos2"><h1><i><b>Try to choose some our high quality coffee bean in the world</b></i></h1></div>
-      <div class="section row pos1" id="sec">
+      <div class="section row pos1" id="product">
         <div class="coffee shadow row">
           <div class="coffee font align">
             <a href="#"><img src="coffee/1_americano.jpg" class="size" alt=""></a>
@@ -137,7 +137,7 @@
         </div>
       </div>
     </div>
-    <div class="contact row">
+    <div class="contact row" id="contact">
       <div class="soscontainer">
         <h1>Let's keep in touch!</h1>
           <div class="sosmed">
@@ -147,7 +147,7 @@
           </div>
       </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="profile">
       <div class="list">
         <h2>Tools/Equipment</h2>
         <a href="#">Saringan</a>
@@ -176,7 +176,8 @@
   </div>
 
 </body>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="main.js">
 
 </script>
